@@ -91,11 +91,6 @@ make valgrind  # Runs Valgrind for memory leak detection
 - Coding style **adheres to the Cpp Core Guidelines**.
 - All tasks **passed the Moodle checker** with a score of **100/100**.
 
-## Course Info
-
-📚 **Computer Programming (CB & CD)** — 2024  
-🧠 **Task Score:** 100/100
-
 ## License
 
 - This project is for educational purposes only.
