@@ -73,7 +73,6 @@ Validated the entire program using Valgrind (`--leak-check=full`) to ensure no m
 ## Structure
 
 - `libchunk/`: Contains implementation files for generation, processing, transformation, and compression
-- `src/main.c`: Entry point used for manual testing
 - `Makefile`: Builds the project (`make`, `make run`, `make valgrind`)
 - `README.md`: This file
 - `README` : Original README file for the assignemt
