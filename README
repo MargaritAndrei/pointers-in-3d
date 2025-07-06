@@ -1,0 +1,26 @@
+Rezolvare tema2 pe scurt:
+
+
+
+-task1: efectiv am verificat daca coordonatele date sunt corecte, daca da puneam in matricea tridimensionala
+blocul dat;
+
+-task2: am parcurs efectiv zona si am umplut-o cu blocul respectiv, folosindu-ma si de functia definita la task-ul 1;
+
+-task3: asemanator task-ului 2, am parcurs zona si am umplut-o cu blocul respectiv, verificand daca blocul se afla la distanta corecta de centrul sferei;
+
+-task4: am pus peste tot unde aveam target_block o alta valoare inafara celor posibile, LIMIT, pentru a trata si
+cazul particular cand shell_block = target_block, iar apoi am construit efectiv shell-ul cautand vecinii pe cele 18 directii posibile;
+
+-task5: algoritmul fill clasic intr-o matrice folosind coada;
+
+-task6: algoritmul fill adaptat pentru matrice tridimensionala avand cele 6 directii posibile: sus, jos, stanga, dreapta, fata, spate;
+
+-task7: am rotit fiecare matrice din planul xOz;
+
+-task8: am folosit functia definita pentru task-ul 6 pentru a salva intr-o structura coordonatele unui "bloc" care ne intereseaza in acel moment si apoi am verificat efectiv daca poate "cadea", daca poate atunci il stergem 
+din chunk si il punem cu o pozitie mai jos, iar dupa aceea am facut din nou acelasi lucru doar ca am definit un chunk2 (un chunk auxiliar in care pastrez valorile multiple ale "blocurilor") si o functie chunk_fill_connected care marcheaza tot indiferent de valoarea din chunk;
+
+-task9: am folosit un vector intermediar runs de tip struct similar cu ce este prezentat in enuntul taskului pentru a-mi fi mai usor sa creez vectorul de caractere final;
+
+-task10: asemanator task-ului 9, am recreat vectorul runs din codul primit pentru ca ulterior sa recreez chunk-ul initial;
