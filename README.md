@@ -96,3 +96,8 @@ make valgrind  # Runs Valgrind for memory leak detection
 
 📚 **Computer Programming (CB & CD)** — 2024  
 🧠 **Task Score:** 100/100
+
+## License
+
+- This project is for educational purposes only.
+- Minecraft is a trademark of Mojang Studios and Microsoft. This simulator is not affiliated with or endorsed by Mojang or Microsoft.
